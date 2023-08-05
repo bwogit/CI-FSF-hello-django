@@ -31,7 +31,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 DEBUG = True
 
 ALLOWED_HOSTS = ['8000-bwogit-ci-fsf-hello-djan-6x067b8s76.us2.codeanyapp.com',
-                 'django_todo.herokuapp.com', 'localhost']
+                 'django_todo.herokuapp.com', 'localhost', 'hello-django-js-7a537a3e9786.herokuapp.com']
 
 
 # Application definition
