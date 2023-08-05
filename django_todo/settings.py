@@ -35,11 +35,11 @@ DEBUG = Development
 
 # ALLOWED_HOSTS = ['8000-bwogit-ci-fsf-hello-djan-6x067b8s76.us2.codeanyapp.com',
 #                 'django_todo.herokuapp.com', 'localhost', 'hello-django-js-7a537a3e9786.herokuapp.com']
-if development:
-    ALLOWED_HOSTS = ['localhost']
-else:
-    ALLOWED_HOSTS = ['8000-bwogit-ci-fsf-hello-djan-6x067b8s76.us2.codeanyapp.com',
-                     'django_todo.herokuapp.com', 'localhost', 'hello-django-js-7a537a3e9786.herokuapp.com']
+# if development:
+#    ALLOWED_HOSTS = ['localhost']
+# else:
+ALLOWED_HOSTS = ['8000-bwogit-ci-fsf-hello-djan-6x067b8s76.us2.codeanyapp.com',
+                 'django_todo.herokuapp.com', 'localhost', 'hello-django-js-7a537a3e9786.herokuapp.com']
 
 # Application definition
 
@@ -84,8 +84,8 @@ TEMPLATES = [
 WSGI_APPLICATION = 'django_todo.wsgi.application'
 
 
-Database
-https: // docs.djangoproject.com/en/3.2/ref/settings/  # databases
+# Database
+# https: // docs.djangoproject.com/en/3.2/ref/settings/  # databases
 
 if development
 DATABASES = {
